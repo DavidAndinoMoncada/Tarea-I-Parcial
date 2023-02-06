@@ -34,7 +34,7 @@ namespace Numeros_Par_Impar_Positivos_Y_Negativos
             if (numero1 % 2 == 0)
             {
                 Resultado1 = Pares(numero1);
-                if (numero1 > 0 & Resultado1 == 0)
+                if (numero1 > 0 && Resultado1 == 0)
                 {
                     MessageBox.Show("El Numero " + numero1 + " es un Numero Par Positivo", "Mensjae", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
@@ -46,7 +46,7 @@ namespace Numeros_Par_Impar_Positivos_Y_Negativos
             else if (numero1 % 2 != 0)
             {
                 Resultado2 = Impares(numero1);
-                if (numero1 < 0 & Resultado2 != 0)
+                if (numero1 < 0 && Resultado2 != 1)
                 {
                     MessageBox.Show("El Numero " + numero1 + " es un Numero Impar Negaitivo", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
